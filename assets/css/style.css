@@ -1,0 +1,124 @@
+
+div.global-header {
+
+	background-color: green;
+	height: 10px;	
+	margin-top: 0px;
+}
+
+/*This section is the name in the header*/
+h1.header {
+	background-color: #4aaaa5;
+	font-family: 'Georgia';
+	color: white;
+	float: left;
+	margin-left: 100px;
+	padding: 30px 30px 30px 30px; 
+}
+
+/*This following section styles nav link in global header*/
+ul.header {
+	list-style-type: none;
+	float: left;
+	margin-left: 500px;
+}
+
+li {
+	display: inline;
+	border-right: 1px solid black; padding: 0 .5em;
+}
+
+ul li:last-child { 
+	border: 0; 
+}
+
+li a {
+	text-decoration: none;
+	color: #777777
+}
+
+
+/*This section styles background for the entire body section*/
+div.body-background {
+	clear: both;
+	background-image: url("../images/cork-wallet.png");
+	height: 960px;
+	border-top-style: solid #8c8c8c;
+	border-top-width: 2px;
+
+}
+
+/*This section styles the h1 in the main body */
+h1.main {
+	color: #4aaaa5;
+	font: Arial;
+}
+
+/*This section styles the content area in main body */
+div.content {
+	
+	float: left;
+	margin-left: 100px;
+	height: 500px;
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding: 15px 30px 50px 30px;
+	margin-bottom: 30px;
+
+}
+
+/*This section styles the social links section */
+div.connect {
+	float: left;
+	width: 270px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	color: #4aaaa5;
+	font: Arial;
+	margin-left: 40px;
+	padding: 15px 30px 50px 30px;
+	
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #8c8c8c;
+  padding-bottom: 10px;
+}
+
+p {
+	color: #777777;
+}
+
+body {
+	
+}
+
+footer {
+	background-color: #666666;
+	color: #777777;
+	height: 60px;
+	clear: both;
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px
+}
+
+
+#profile {
+	display: block;
+	height="250";
+	width="175";
+	align="left"
+	float: left;
+	margin-right: 30px;
+}
+
+.social {
+	float: left;
+	margin: 5px;
+	height: 50px;
+	width: 50px;
+}
