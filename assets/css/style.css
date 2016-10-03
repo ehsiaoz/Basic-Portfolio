@@ -90,22 +90,22 @@ li a {
 
 
 /*This following section styles global footer block*/
-#footer {
+.footer {
 	clear: both;
 	height: 75px; 
 	background-color: #666666;
+	color: #777777;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
 	border-top-width: 5px
-	position: absolute;
+	display: table;
 }
 
 /*This following section styles text in global footer*/
-#footerText {
-	color: #777777;
-	position: relative;
-	text-align: center;
-	vertical-align: middle;
+.footer p {
+	
+	display:table-cell;
+	vertical-align:middle;
 }
 
 #AboutMe {
