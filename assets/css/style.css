@@ -1,124 +1,162 @@
 
-div.global-header {
-
-	background-color: green;
-	height: 10px;	
-	margin-top: 0px;
+#wrapper {
+	background-image: url("../images/cork-wallet.png");
+	float: left;
+	/*min-height allows background height to adjust to content*/
+	min-height: 100px;
+	width: 1960px;
 }
+#topNav {
+	background-color: white;
+	height: 75px;
+	padding-bottom: 0px;
+	border-bottom: solid #8c8c8c;
+	position: relative;
+	display: flex;
+	vertical-align: middle;
 
-/*This section is the name in the header*/
-h1.header {
+}
+	
+#headerName {
 	background-color: #4aaaa5;
-	font-family: 'Georgia';
+	height: 70px;
+	float: left;
+	margin-left: 400px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	padding-left: 15px;
+	padding-right: 15px;
+	bottom: 0px;
+}
+
+#name {
 	color: white;
+	font-family: 'Georgia';
+}
+/*This div groups nav links in global header*/
+
+#headerLinkGroup {
+	margin-left: 1125px;
 	float: left;
-	margin-left: 100px;
-	padding: 30px 30px 30px 30px; 
+	margin-top: 15px;
 }
 
-/*This following section styles nav link in global header*/
-ul.header {
+/*This following section styles nav links in global header to be inline*/
+#headerLink {
 	list-style-type: none;
-	float: left;
-	margin-left: 500px;
 }
 
+/*This following section styles nav links in global header to have pipe dividers*/
 li {
 	display: inline;
-	border-right: 1px solid black; padding: 0 .5em;
+	border-right: 1px solid black; padding: 0 1em;
 }
 
+/*This following section removes the pipe divdier from far right nav links in global header*/
 ul li:last-child { 
 	border: 0; 
 }
 
+/*This following section styles font color nav links in global header and removes underline*/
 li a {
 	text-decoration: none;
 	color: #777777
 }
 
 
-/*This section styles background for the entire body section*/
-div.body-background {
-	clear: both;
-	background-image: url("../images/cork-wallet.png");
-	height: 960px;
-	border-top-style: solid #8c8c8c;
-	border-top-width: 2px;
-
-}
-
-/*This section styles the h1 in the main body */
-h1.main {
-	color: #4aaaa5;
-	font: Arial;
-}
-
-/*This section styles the content area in main body */
-div.content {
-	
-	float: left;
-	margin-left: 100px;
-	height: 500px;
+#mainContent {
+	min-height: 100px;
 	width: 650px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	padding: 15px 30px 50px 30px;
-	margin-bottom: 30px;
+	float: left;
+	margin: 50px 0px 50px 400px;
 
 }
 
-/*This section styles the social links section */
-div.connect {
+#rightNav {
 	float: left;
 	width: 270px;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	color: #4aaaa5;
-	font: Arial;
-	margin-left: 40px;
-	padding: 15px 30px 50px 30px;
-	
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 15px 30px 20px 30px;
+
 }
 
-hr {
-  border: 0;
-  border-top: 2px solid #8c8c8c;
-  padding-bottom: 10px;
-}
 
-p {
-	color: #777777;
-}
-
-body {
-	
-}
-
-footer {
-	background-color: #666666;
-	color: #777777;
-	height: 60px;
+/*This following section styles global footer block*/
+#footer {
 	clear: both;
-	text-align: center;
+	height: 75px; 
+	background-color: #666666;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
 	border-top-width: 5px
+	position: absolute;
 }
 
+/*This following section styles text in global footer*/
+#footerText {
+	color: #777777;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
 
+#AboutMe {
+	color: #4aaaa5;
+	font: Arial;
+}
+
+#Connect {
+	color: #4aaaa5;
+	font: Arial;
+}
+
+/*This following section styles the profile picture in main content block*/
 #profile {
-	display: block;
-	height="250";
-	width="175";
-	align="left"
+	/*float left all the text to flow to the right of the image*/
 	float: left;
 	margin-right: 30px;
 }
 
+/*This following section styles social media icons*/
 .social {
 	float: left;
 	margin: 5px;
 	height: 50px;
 	width: 50px;
+}
+
+#github {
+	margin-left: 50px;
+}
+
+/*This following section styles horizontal lines in content blocks*/
+hr {
+	border: 0;
+  	border-top: 2px solid #8c8c8c;
+  	padding-bottom: 10px;
+}
+
+/*This following section removes browser default border*/
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Georgia';
+}
+
+h2 {
+	font-family: 'Georgia';
+}
+
+p {
+	color: #777777;
 }
