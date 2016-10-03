@@ -90,7 +90,7 @@ li a {
 
 
 /*This following section styles global footer block*/
-.footer {
+#footer {
 	clear: both;
 	height: 75px; 
 	background-color: #666666;
@@ -98,14 +98,13 @@ li a {
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
 	border-top-width: 5px
-	display: table;
+	display: flex;
+
 }
 
 /*This following section styles text in global footer*/
-.footer p {
-	
-	display:table-cell;
-	vertical-align:middle;
+#footertext {
+	margin: auto;
 }
 
 #AboutMe {
