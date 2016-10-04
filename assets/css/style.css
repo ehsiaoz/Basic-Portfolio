@@ -1,47 +1,51 @@
 
-body {
-	margin: 0;
-}
+
 /*Below section styles the header navigation bar*/	
-#headerBar {
+header {
 	background-color: blue;
 	height: 100px;
 	padding-bottom: 0px;
 	border-bottom: solid #8c8c8c;
 	border-bottom-width: 2px;
-	position: relative;
+	
 }
 
-#headerContentWrapper {
+.headerContentWrapper {
 	background-color: white;
 	width: 960px;
 	height: 80px;
-	position: absolute;
-	bottom: 0;
-	margin-left: 425px;
+	margin: auto;
+
+	
+	
 
 }
 
-#headerName {
+.headerName {
 	background-color: #4aaaa5;
 	height: 80px;
 	float: left;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0px 20px;
+	
 }
 
-#name {
+.name {
 	color: white;
 	font-family: 'Georgia';
 }
 
-#headerNavLinks {
-	margin-left: 275px;
+hr {
+
+	margin-bottom: 20px;
+}
+
+.headerNavLinks {
+	margin-left: 375px;
 	float: left;
 }
 
 /*This following section styles nav links in global header to be inline*/
-#headerLink {
+.headerLink {
 	list-style-type: none;
 }
 
@@ -59,81 +63,124 @@ ul li:last-child {
 /*This following section styles font color nav links in global header and removes underline*/
 li a {
 	text-decoration: none;
-	color: #777777
+	color: #777777;
+	font-family: Arial;
+}
+
+body {
+	background-image:url("../images/cork-wallet.png");
 }
 
 
 
+.contentWrapper {
 
-/*Below section styles the content background section*/	
-#bodyBackground {
-	background-image: url("../images/cork-wallet.png");
-	/*min-height allows background height to adjust to content*/
-	min-height: 600px;
-	display: flex;
-	
-}
+	width: 960px;
+	margin: 100px auto;
 
-#contentWrapper {
 
-	max-width: 1000px;
-	min-height:100px;
-	margin: auto;
 
 }
 
-#mainContent {
-	width: 610px;
-	min-height: 100px;
+.mainContent {
+	box-sizing: border-box; 
+	width: 650px;
 	background-color: white;
 	float: left;
-	padding: 20px 20px 20px 20px;
+	padding: 0px 20px 20px 20px;
 }
 
-#linkModule {
-	width: 230px;
-	min-height: 100px;
+.linkModule {
+	box-sizing: border-box;
+	width: 270px;
 	background-color: #ffffff;
 	float: left;
 	margin-left: 40px;
 	border-color: #dddddd;
 	padding: 20px 20px 20px 20px;
 	
-
 }
 
-#linkGroup {
-	margin: auto;
 
-}
 
-#AboutMe {
+h1 {
 	color: #4aaaa5;
 	font: Arial;
+	margin-bottom: 0px;
 }
 
-#profile {
+.profile {
 	/*float left all the text to flow to the right of the image*/
 	float: left;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
-#Connect {
+h2 {
 	color: #4aaaa5;
 	font: Arial;
+	text-align: center;
+	
+}
+
+.linkGroup {
+	height: 50px;
 	margin: auto;
+	text-align: justify;
 }
 
 .social {
 	float: left;
-	margin: 5px;
+	display: inline-block;
 	height: 50px;
 	width: 50px;
+	margin-right: 10px;
+}
+
+#github {
+	margin-left: 30px;
+}
+
+.footerContent {
+	color: #777777;
+	margin: auto;
+	font-family: Arial;
+}
+
+/*The below css applies to contact.hmtl*/
+
+label {
+	color: #777777;
+	font-family: Arial;
 }
 
 
-#footerBar {
-	height: 75px; 
+input[type=text] {
+	width: 585px;
+	padding: 10px 10px;
+	margin: 8px 0;
+	
+}
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto;
+height: 100%;
+margin: 0 auto -5em;
+}
+
+.footer, .push {
+height: 5em;
+
+}
+
+.footer, .push {
+	 
 	background-color: #666666;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
@@ -142,7 +189,18 @@ li a {
 	
 }
 
-#footerContent {
-	color: #777777;
-	margin: auto;
+input[type=submit] {
+	color: white;
+	padding: 5px 10px;
+	margin: 8px 0;
+	background-color: #4aaaa5;
+	border: none;
+	width: 100px;
+	font-size: 16px;
+}
+
+textarea {
+	padding: 12px 20px;
+	margin: 8px 0;
+
 }
