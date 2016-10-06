@@ -20,15 +20,20 @@ header {
 
 .headerName {
 	background-color: #4aaaa5;
-	height: 60px;
+	height: 80px;
+	width: 210px;
 	float: left;
-	padding: 20px 20px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 23px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Georgia;
 }
 
-.name {
-	color: white;
-	font-family: 'Georgia';
-}
 
 hr {
 	margin-bottom: 20px;
@@ -36,7 +41,7 @@ hr {
 
 .headerNavLinks {
 	margin-top: 30px;
-	margin-left: 375px;
+	margin-left: 420px;
 	float: left;
 }
 
@@ -64,16 +69,20 @@ li a {
 }
 
 body {
-	background-image:url("../images/cork-wallet.png");
 	margin: 0;
 }
 
-
+.bodyBackground {
+	background-image:url("../images/cork-wallet.png");
+	min-height: 300px;
+	overflow: hidden;
+}
 
 .contentWrapper {
 
 	width: 960px;
-	margin: 50px auto;
+	margin: auto;
+	margin-top: 50px;
 
 }
 
@@ -98,7 +107,11 @@ body {
 	
 }
 
-
+.empty {
+	height: 50px;
+	clear: both;
+	float: left;
+}
 
 h1 {
 	color: #4aaaa5;
@@ -110,8 +123,8 @@ h1 {
 	/*float left all the text to flow to the right of the image*/
 	float: left;
 	margin: 0px 20px 10px 0px;
-	height="250";
-	width="200";
+	height:250px;
+	width:200px;
 	
 }
 
@@ -209,24 +222,26 @@ table {
 
 .photo {
 	position: relative;
-	height:300px;
-	width:250px;
+	width:240px;
+	height:160px;
+	
 }
 
 img.portfolio {
-	height:300px;
-	width:250px;
+	width:240px;
+	height:160px;
+	
 }
 
 
 .imgLabel {
-	width:250px;
-	height: 50px;
+	width:240px;
+	height: 40px;
 	background-color: #4aaaa5;
 	position: absolute;
-	top: 80%;
+	top: 70%;
 	color: white;
 	text-align: center;
-	font-size: 23px;
-	line-height: 50px;
+	font-size: 20px;
+	line-height: 40px;
 }
