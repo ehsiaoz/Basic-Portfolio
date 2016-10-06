@@ -233,6 +233,13 @@ img.portfolio {
 	
 }
 
+.photo:hover  {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
 
 .imgLabel {
 	width:240px;
@@ -245,3 +252,4 @@ img.portfolio {
 	font-size: 20px;
 	line-height: 40px;
 }
+
