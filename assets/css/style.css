@@ -74,15 +74,17 @@ body {
 
 .bodyBackground {
 	background-image:url("../images/cork-wallet.png");
-	min-height: 300px;
-	overflow: hidden;
-}
+	min-height: 600px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}	
 
 .contentWrapper {
 
 	width: 960px;
 	margin: auto;
-	margin-top: 50px;
+
 
 }
 
@@ -182,7 +184,7 @@ input[type=text] {
 	border-top-color: #4aaaa5;
 	border-top-width: 5px;
 	display: flex;
-	height: 70px;
+	height: 90px;
 	
 }
 
